@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC132E351604D525003D2110 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC132E341604D525003D2110 /* Default-568h@2x.png */; };
+		CC98A8F115B0E4220084973F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC98A8EF15B0E3FA0084973F /* CoreBluetooth.framework */; };
+		CCB589DF15880A9F00E83CFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB589DE15880A9F00E83CFB /* UIKit.framework */; };
+		CCB589E115880A9F00E83CFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB589E015880A9F00E83CFB /* Foundation.framework */; };
+		CCB589E315880A9F00E83CFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB589E215880A9F00E83CFB /* CoreGraphics.framework */; };
+		CCB589E915880A9F00E83CFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCB589E715880A9F00E83CFB /* InfoPlist.strings */; };
+		CCB589EB15880A9F00E83CFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB589EA15880A9F00E83CFB /* main.m */; };
+		CCB589EF15880A9F00E83CFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB589EE15880A9F00E83CFB /* AppDelegate.m */; };
+		CCB589F215880A9F00E83CFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB589F115880A9F00E83CFB /* ViewController.m */; };
+		CCB589F515880A9F00E83CFB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB589F315880A9F00E83CFB /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC132E341604D525003D2110 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		CC98A8EF15B0E3FA0084973F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CCB589DA15880A9F00E83CFB /* PeripheralModeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeripheralModeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB589DE15880A9F00E83CFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCB589E015880A9F00E83CFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCB589E215880A9F00E83CFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCB589E615880A9F00E83CFB /* PeripheralModeTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeripheralModeTest-Info.plist"; sourceTree = "<group>"; };
+		CCB589E815880A9F00E83CFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCB589EA15880A9F00E83CFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCB589EC15880A9F00E83CFB /* PeripheralModeTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeripheralModeTest-Prefix.pch"; sourceTree = "<group>"; };
+		CCB589ED15880A9F00E83CFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCB589EE15880A9F00E83CFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCB589F015880A9F00E83CFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCB589F115880A9F00E83CFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCB589F415880A9F00E83CFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB589D715880A9F00E83CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB589DF15880A9F00E83CFB /* UIKit.framework in Frameworks */,
+				CCB589E115880A9F00E83CFB /* Foundation.framework in Frameworks */,
+				CC98A8F115B0E4220084973F /* CoreBluetooth.framework in Frameworks */,
+				CCB589E315880A9F00E83CFB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCB589CF15880A9F00E83CFB = {
+			isa = PBXGroup;
+			children = (
+				CCB589E415880A9F00E83CFB /* PeripheralModeTest */,
+				CCB589DD15880A9F00E83CFB /* Frameworks */,
+				CCB589DB15880A9F00E83CFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB589DB15880A9F00E83CFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB589DA15880A9F00E83CFB /* PeripheralModeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB589DD15880A9F00E83CFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC98A8EF15B0E3FA0084973F /* CoreBluetooth.framework */,
+				CCB589DE15880A9F00E83CFB /* UIKit.framework */,
+				CCB589E015880A9F00E83CFB /* Foundation.framework */,
+				CCB589E215880A9F00E83CFB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCB589E415880A9F00E83CFB /* PeripheralModeTest */ = {
+			isa = PBXGroup;
+			children = (
+				CCB589ED15880A9F00E83CFB /* AppDelegate.h */,
+				CCB589EE15880A9F00E83CFB /* AppDelegate.m */,
+				CCB589F015880A9F00E83CFB /* ViewController.h */,
+				CCB589F115880A9F00E83CFB /* ViewController.m */,
+				CCB589F315880A9F00E83CFB /* ViewController.xib */,
+				CCB589E515880A9F00E83CFB /* Supporting Files */,
+			);
+			path = PeripheralModeTest;
+			sourceTree = "<group>";
+		};
+		CCB589E515880A9F00E83CFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC132E341604D525003D2110 /* Default-568h@2x.png */,
+				CCB589E615880A9F00E83CFB /* PeripheralModeTest-Info.plist */,
+				CCB589E715880A9F00E83CFB /* InfoPlist.strings */,
+				CCB589EA15880A9F00E83CFB /* main.m */,
+				CCB589EC15880A9F00E83CFB /* PeripheralModeTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB589D915880A9F00E83CFB /* PeripheralModeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB589F815880A9F00E83CFB /* Build configuration list for PBXNativeTarget "PeripheralModeTest" */;
+			buildPhases = (
+				CCB589D615880A9F00E83CFB /* Sources */,
+				CCB589D715880A9F00E83CFB /* Frameworks */,
+				CCB589D815880A9F00E83CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeripheralModeTest;
+			productName = PeripheralModeTest;
+			productReference = CCB589DA15880A9F00E83CFB /* PeripheralModeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB589D115880A9F00E83CFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Oltica;
+			};
+			buildConfigurationList = CCB589D415880A9F00E83CFB /* Build configuration list for PBXProject "PeripheralModeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCB589CF15880A9F00E83CFB;
+			productRefGroup = CCB589DB15880A9F00E83CFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB589D915880A9F00E83CFB /* PeripheralModeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB589D815880A9F00E83CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB589E915880A9F00E83CFB /* InfoPlist.strings in Resources */,
+				CCB589F515880A9F00E83CFB /* ViewController.xib in Resources */,
+				CC132E351604D525003D2110 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB589D615880A9F00E83CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB589EB15880A9F00E83CFB /* main.m in Sources */,
+				CCB589EF15880A9F00E83CFB /* AppDelegate.m in Sources */,
+				CCB589F215880A9F00E83CFB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCB589E715880A9F00E83CFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB589E815880A9F00E83CFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCB589F315880A9F00E83CFB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB589F415880A9F00E83CFB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB589F615880A9F00E83CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCB589F715880A9F00E83CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB589F915880A9F00E83CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeripheralModeTest/PeripheralModeTest-Prefix.pch";
+				INFOPLIST_FILE = "PeripheralModeTest/PeripheralModeTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCB589FA15880A9F00E83CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeripheralModeTest/PeripheralModeTest-Prefix.pch";
+				INFOPLIST_FILE = "PeripheralModeTest/PeripheralModeTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB589D415880A9F00E83CFB /* Build configuration list for PBXProject "PeripheralModeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB589F615880A9F00E83CFB /* Debug */,
+				CCB589F715880A9F00E83CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB589F815880A9F00E83CFB /* Build configuration list for PBXNativeTarget "PeripheralModeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB589F915880A9F00E83CFB /* Debug */,
+				CCB589FA15880A9F00E83CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB589D115880A9F00E83CFB /* Project object */;
+}
